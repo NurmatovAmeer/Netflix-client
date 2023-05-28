@@ -1,0 +1,111 @@
+.castContainer{
+    background-color: black;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .back{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(236, 220, 187);
+        cursor: pointer;
+        z-index: 2;
+        margin: 0px 20px 20px 20px;
+        display: flex;
+        align-items: center;
+        font-size: 26px;
+    }
+
+    .castCredentials{
+    padding: 20px 100px 60px 100px;
+        display: flex;
+        .castImage{
+            height: 600px;
+            width: 440px;
+            padding: 20px;
+            border: 1px solid rgba(58, 57, 57, 0.938);
+            border-radius: 8px;
+            img{
+                height: 560px;
+                width: 400px;
+                object-fit: cover;
+            }
+        }
+        .castAbout{
+            margin-left: 80px;
+            color: white;
+            width: 600px;
+            h1{
+                font-size: 60px;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 25px;
+            }
+        }
+    }
+    .listCast {
+        width: 100%;
+        margin-top: 40px;
+    
+        .listTitleCast {
+            background-color: rgb(28, 28, 28);
+            width: 1200px ;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+          color: white;
+          font-size: 20px;
+          font-weight: 500;
+          margin-left: 50px;
+        }
+      
+        .wrapperCast {
+          position: relative;
+          .sliderArrow {
+            width: 50px;
+            height: 100%;
+            background-color: rgb(22, 22, 22, 0.5);
+            color: white;
+            position: absolute;
+            z-index: 99;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            cursor: pointer;
+      
+            &.left {
+              left: 0;
+            }
+      
+            &.right {
+              right: 0;
+            }
+          }
+          .containerCast {
+            margin-left: 50px;
+            display: flex;
+            margin-top: 10px;
+            width: max-content;
+            transform: translateX(0px);
+            transition: all 1s ease;
+                .noMovies{
+                    width: 1200px;
+                    height: 100px;
+                    padding: 20px;
+            background-color: black;
+            border-radius: 8px;
+            border: 1px solid rgba(58, 57, 57, 0.5);
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            color: rgba(201, 201, 201, 0.667);
+            font-size: 30px;
+                  }
+          }
+        }
+      }
+      
+}

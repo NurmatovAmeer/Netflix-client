@@ -1,0 +1,29 @@
+.accordionItem{
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: rgb(14, 14, 14);
+    border: 1px solid rgb(139, 138, 138);
+    color: white;
+    .plusIcon{
+        width: 30px;
+    }
+    .minusIcon{
+        width: 30px;
+    }
+}
+.accordionGroup{
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+    color: white;
+    background-color: rgb(19, 19, 19);
+    margin-bottom: 10px;
+}
+.accordionItem:hover{
+    background-color: rgb(64, 63, 63);
+}

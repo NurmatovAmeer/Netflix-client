@@ -1,0 +1,61 @@
+.settingsContainer{
+    box-sizing: border-box;
+background-color: black;
+min-height: 100vh;
+width: calc(100% - 200px);
+margin-left: 200px;
+.mainSettings{
+    padding: 60px;
+    display: flex;
+    .settingsUser{
+        width: 1000px;
+            background-color: #0c0c0c;
+            border: 1px solid rgb(38, 37, 37);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        .settingsImage{
+            width: 180px;
+            img{
+                width: 180px;
+                height: 180px;
+                background-color: white;
+                border-radius: 50%;
+            }
+            label{
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.315);
+                top: 80px;
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .settingsCredentials{
+            margin-left: 50px;
+            input{
+                height: 60px;
+                width: 400px;
+                margin-top: 10px;
+                color: white;
+                background-color: black;
+                border: 1px solid rgb(38, 37, 37);
+            }
+        }
+        .settingsUpd{
+            button{
+                margin-top: 10px;
+                width: 200px;
+                height: 50px;
+                margin-right: 100px;
+                background-color: black;
+                border: 1px solid red;
+                color: white;
+            }
+        }
+    }
+}
+}

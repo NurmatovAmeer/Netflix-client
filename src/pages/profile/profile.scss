@@ -1,0 +1,108 @@
+.profile-container{
+box-sizing: border-box;
+background-color: black;
+min-height: 100vh;
+width: calc(100% - 200px);
+margin-left: 200px;
+.profile-header{
+  position: absolute;
+  z-index: 0;
+  width: calc(100% - 200px);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+  filter: blur(10px);
+}
+img{
+  position: relative;
+  z-index: 1;
+  width: 180px;
+  height: 180px;
+  margin-top: 100px;
+  margin-bottom: 35px;
+  margin-left: 44%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.profile-main{
+  background-color: #0c0c0c;
+  border: 1px solid rgb(38, 37, 37);
+  color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  min-height: 400px;
+  .profile-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span{
+      margin-top: 10px;
+      color: gray;
+      font-size: 25px;
+      b{
+        color: white;
+      }
+    }
+  }
+  h1{
+    margin-left: 30px;
+    font-size: 40px;
+  }
+  .column{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    .columnItem{
+        position: relative;
+        width: 33.3%;
+background-size: cover;
+color: white;
+padding: 20px;
+border: 1px solid black;
+box-sizing: border-box;
+.itemOnHover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 88%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+        .itemsMain{
+        padding-top: 530px;
+        display: flex;
+        align-items: center;
+            .itemCredentials{
+                margin-left: 45px;
+                p{
+                    font-size: 20px;
+                }
+                
+            }
+        }
+    }:hover{
+        .itemOnHover{
+            opacity: 1;
+        }
+    }
+    .nofavourite{
+        position: relative;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 50px;
+    }
+}
+}
+}
