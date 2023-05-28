@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 .infoContainer{
     position: relative;
-    height: 1890px;
+    max-height: 1890px;
 .backgroundImage{
     position: absolute;
     z-index: -2;
